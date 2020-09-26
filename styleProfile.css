@@ -1,0 +1,248 @@
+body{
+    background:#efefef !important;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+
+/*---------------------------------Navbar------------------------------------*/
+.hm-gradient {
+    background-color: #222B31;
+    background-image: linear-gradient(to top, #222B31 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.navbar .dropdown-menu a:hover {
+    color: #616161 !important;
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
+
+.profile_body{
+    width: 100%;
+
+    background-color: white;
+
+}
+
+.profile_body .menu{
+    width: 100%;
+
+}
+
+/*==body contant for the top part "search bar"=====*/
+
+.profile_body .profile_con{
+    width: 100%;
+    padding: 50px 0px;
+
+    overflow: hidden;
+
+}
+
+.profile_body .profile_con .search{
+    width: 100%;
+    /*height: 50px;*/
+
+    margin-top: 45px;
+    overflow: hidden;
+}
+
+.profile_body .profile_con .search .search_mid{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.profile_body .profile_con .search .search_mid input{
+    width: 400px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: black;
+    background-color: transparent;
+}
+
+
+
+.profile_body .profile_con .search .search_mid button{
+    width: 100px;
+    padding: 10px 20px;
+}
+/*==search part end here=====*/
+
+
+
+/*====left part contant===========*/
+
+.profile_body .profile_con .profile_bottom .profile_bottom_left{
+    width: 30%;
+    float: left;
+
+    margin-top: 50px;
+    padding: 20px 0px;
+
+}
+
+
+.profile_body .profile_con .profile_bottom .profile_bottom_left .left_con .left_profile img{
+
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_left .left_con .left_profile h2{
+    text-align: center;
+}
+
+
+/*====profile contact part start from here======*/
+
+.profile_body .profile_con .profile_bottom .profile_bottom_left .left_con .pro_contact{
+    text-align: center;
+    font-size: 20px
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_left .left_con .pro_contact i{
+    display: block;
+    margin-top: 20px;
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_left .left_con .pro_contact i span{
+    margin-left: 20px;
+}
+
+
+
+.profile_body .profile_con .profile_bottom .profile_bottom_left .map{
+    width: 80%;
+    height: 400px;
+
+    text-align: center;
+    margin: 20px auto;
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_left .map .location{
+    width: 100%;
+    height: 360px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+/*====left part contant ends here=====*/
+
+
+
+
+/*====right part contant start here=====*/
+
+
+.profile_body .profile_con .profile_bottom .profile_bottom_right{
+    width: 70%;
+
+    float: left;
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant hr{
+
+    border-bottom: 2px solid black;
+    border-top: none;
+    width: 400px;
+    padding: 10px 10px;
+
+}
+
+
+/*===recent post view part start from here ======="display part"*/
+
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant .post_view{
+    width: 80%;
+    margin: auto;
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant .post_view h1{
+    font-size: bold;
+    margin-top: 30px;
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant .post_view h3{
+    margin-top: 20px;
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant .post_view img{
+    width: 400px;
+    margin-top: 10px;
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant .post_view p{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/*=====post view part end here======== */
+
+
+/*===adding comment part start from here===========*/
+
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant .post_view textarea{
+    width: 100%;
+
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant .post_view button{
+    display: block;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+/*=====comment part ends here========*/
+
+
+/*======adding new post start form here=========*/
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant .add_post{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant .add_post button{
+    width: 200px;
+    padding: 20px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant .add_post .add_post_inputs{
+    width: 100%;
+    display: none;
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant .add_post .add_post_inputs input{
+    width: 100%;
+    padding: 20px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.profile_body .profile_con .profile_bottom .profile_bottom_right .right_contant .add_post .add_post_inputs textarea{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+}
+/*=====adding new post end here==============*/

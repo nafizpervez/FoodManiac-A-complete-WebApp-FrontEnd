@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.login {
+    background-image: url(img/login/loginImage.jpg);
+    background-position: center center;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
+
+.login .blar {
+    background-color: rgba(0, 0, 0, .2);
+    width: 100%;
+    height: 100%;
+}
+
+.login .blar .header {
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.login .blar .header .headerRight {
+    width: 40%;
+    float: right;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.login .blar .header .headerRight input {
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color: rgba(255, 165, 0, .7);
+    ;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login .blar .header .headerRight input:hover {
+    background-color: tomato;
+}
+
+.login .body {
+    width: 100%;
+}
+
+.login .body .mid {
+    width: 80%;
+    margin: auto;
+}
+
+.body .mid .leftBody {
+    width: 49%;
+    float: left;
+}
+
+.body .mid .rightBody {
+    width: 49%;
+    float: right;
+}
+
+.body .mid .leftBody {
+    margin: 200px auto;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 165, 0, .7);
+}
+
+.body .mid .leftBody h1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.body .mid .rightBody {
+    margin: 100px auto;
+    width: 500px;
+}
+
+.body .mid .rightBody .loginForm .names {
+    text-align: center;
+}
+
+.body .mid .rightBody .loginForm .names input {
+    width: 150px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgba(255, 165, 0, .7);
+    ;
+}
+
+.body .mid .rightBody .loginForm .info {
+    text-align: center;
+}
+
+.body .mid .rightBody .loginForm .info input {
+    width: 370px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px auto;
+    background-color: rgba(255, 165, 0, .7);
+    ;
+}
+
+.body .mid .rightBody .loginForm .confi {
+    text-align: center;
+}
+
+.body .mid .rightBody .loginForm .confi input {
+    width: 150px;
+    padding: 10px 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: orange;
+}
