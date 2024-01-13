@@ -1,4 +1,4 @@
-<!--Author Rahat Islam Akash -->
+
 <?php include 'connection.php'?>
 <?php
 
