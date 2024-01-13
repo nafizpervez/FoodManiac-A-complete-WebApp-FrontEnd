@@ -1,6 +1,3 @@
-<!--Author : Saad Ibne Lukman Ali-->
-<!--Id: 1611597042-->
-<!--Course: Cse482-->
 
 <?php
     include 'connection.php';
